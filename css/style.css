@@ -1,0 +1,60 @@
+body {
+  padding-top: 50px;
+}
+
+#intro {
+  
+}
+
+.intro-text {
+  text-align: center;
+}
+
+.profile-img {
+  display: block;
+  height:  125px;
+  width: 125px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+#projects {
+  padding: 25px 0px 20px 0px;
+}
+
+.project {
+  display: block;
+  height: auto;
+  width: 310px;
+  padding: 5px;
+}
+
+.project-thumbnail {
+  height: auto;
+  width: 300px;
+}
+
+#contact-me {
+  padding: 25px 0px 20px 0px;
+}
+
+.profile-footer {
+  margin: 10pt 0pt 10pt 0pt
+}
+
+.copyright-text {
+  
+}
+
+.social-button {
+  font-size: 36pt;
+}
+
+#made-by {
+  display: table;
+}
+
+#made-by-text {
+  display: table-cell;
+  vertical-align: middle;
+}
