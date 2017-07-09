@@ -49,12 +49,3 @@ body {
 .social-button {
   font-size: 36pt;
 }
-
-#made-by {
-  display: table;
-}
-
-#made-by-text {
-  display: table-cell;
-  vertical-align: middle;
-}
