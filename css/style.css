@@ -18,6 +18,10 @@ body {
   margin: 0 auto;
 }
 
+#me {
+  margin: 0 auto;
+}
+
 #projects {
   padding: 25px 0px 20px 0px;
 }
@@ -48,12 +52,4 @@ body {
 
 .social-button {
   font-size: 36pt;
-}
-
-#made-by {
-  display: table;
-}
-
-#made-by-text {
-  
 }
