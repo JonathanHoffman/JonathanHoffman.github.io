@@ -24,14 +24,23 @@ body {
 
 .project {
   display: block;
-  height: auto;
+  height: 300px;
   width: 310px;
   padding: 5px;
 }
 
+.project-thumbnail-container {
+  height: 160px;
+  position: relative;
+}
+
 .project-thumbnail {
-  height: auto;
-  width: 300px;
+  max-height: 160px;
+  margin-top: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 #contact-me {
