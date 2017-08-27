@@ -1,7 +1,16 @@
 //Bootstrap and jquery included via CodePen. Much js functionality is in minified Bootstrap.js and configured through data attributes.
 
 $(document).ready(function() {
-  //Set the made-by and social buttons to the same height, for vertical alignment purposes. 
-  var Height = $('#social-links').height();
-  $('#made-by').height(Height);
+    function sendMail() {
+        var name = $('#contactName').val();
+        var email = $('#contactEmail').val();
+        var message = $('#contactMessage').val();
+        // message += "\n\n" + name;
+        var msgString = `mailto:jonathanghoffman@gmail.com?subject=new message from ${email}&body=${message}%0A${name}`;
+        window.open(msgString);
+    }
+
+    $('#contactSubmit').click(function () {
+        sendMail();
+    });
 });
