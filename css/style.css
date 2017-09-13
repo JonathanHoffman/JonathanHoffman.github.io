@@ -1,13 +1,17 @@
 body {
   padding-top: 50px;
+  position: relative;
 }
 
-#intro {
-
+.jumbotron {
+  position: relative;
+  background-image: url('../intro-bg.jpg');
+  background-size: cover;
 }
 
 .intro-text {
   text-align: center;
+  background-color: rgba(255,255,255,.75);
 }
 
 .profile-img {
@@ -16,10 +20,6 @@ body {
   width: 200px;
   border-radius: 50%;
   margin: 0 auto;
-}
-
-#projects {
-  padding: 25px 0px 20px 0px;
 }
 
 .project {
@@ -49,10 +49,6 @@ body {
 
 .profile-footer {
   margin: 10pt 0pt 10pt 0pt
-}
-
-.copyright-text {
-
 }
 
 .social-button {
