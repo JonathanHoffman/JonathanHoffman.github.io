@@ -1,9 +1,10 @@
 body {
   padding-top: 50px;
+  position: relative;
 }
 
 #intro {
-
+  position: relative;
 }
 
 .intro-text {
@@ -16,10 +17,6 @@ body {
   width: 200px;
   border-radius: 50%;
   margin: 0 auto;
-}
-
-#projects {
-  padding: 25px 0px 20px 0px;
 }
 
 .project {
@@ -49,10 +46,6 @@ body {
 
 .profile-footer {
   margin: 10pt 0pt 10pt 0pt
-}
-
-.copyright-text {
-
 }
 
 .social-button {
