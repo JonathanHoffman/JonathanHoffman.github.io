@@ -28,6 +28,9 @@ $(document).ready(function() {
         // Explicitly scroll to where the browser thinks the element
         // is, but apply the offset.
         $(href)[0].scrollIntoView();
-        window.scrollBy(0, -navOffset);
+        // Skip the offset for the last element. 
+        if (href != "#contact-me") {
+            window.scrollBy(0, -navOffset);
+        }
     });
 });
